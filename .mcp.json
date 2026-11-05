@@ -1,0 +1,18 @@
+{
+	"mcpServers": {
+		"shadowcoach-intervals": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"run",
+				"--project",
+				"C:\\myvibe\\projects\\training",
+				"python",
+				"C:\\myvibe\\projects\\training\\scripts\\intervals_mcp.py"
+			],
+			"tools": [
+				"*"
+			]
+		}
+	}
+}
