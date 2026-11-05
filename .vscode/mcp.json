@@ -1,4 +1,15 @@
 {
   "servers": {
+    "shadowcoach-intervals": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}",
+        "python",
+        "${workspaceFolder}/scripts/intervals_mcp.py"
+      ]
+    }
   }
 }
